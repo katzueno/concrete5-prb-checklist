@@ -53,7 +53,7 @@ This is how Katz review the add-ons for concrete5
 - Can you add the block to global area?
 - Can you add the block to stack?
 - Does it work within the grid layout?
-- Can you ddit a block
+- Can you edit a block
 - Can you move a block
 - Can you delete a block
 
