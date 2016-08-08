@@ -8,6 +8,7 @@ This is how Katz review the add-ons for concrete5
 - Add-on Itself
     - Does the Title of the Add-on/Theme represent what it is about?
     - Does the title violate trademark and copyright or misrepresent the add-on author is the actual service providers? (If they are official service provider, they can claim add-on/theme to be official one.)
+    - Doesn't it use depreciated class, functions and methods or any other legacy stuff
 - Marketplace and Documentation
     - If the page has proper screenshot.
     - If the page has proper description of the add-on
@@ -25,7 +26,6 @@ This is how Katz review the add-ons for concrete5
 - Check to see if the add-on is properly made against any security threat
     - Does it properly escape, validate against XSS
     - Does it properly handled against SQL Injection
-    - Doesn't it use depreciated class, functions and methods or any other legacy stuff
 - Does it has clear description of that the add-on/theme has on the marketplace page?
 - Images
     - Does it comply any copyright laws?
