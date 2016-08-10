@@ -49,18 +49,30 @@ This is how Katz review the add-ons for concrete5
 
 ## Add-on
 
-- Can you add the block to the area?
-- Can you add the block to global area?
-- Can you add the block to stack?
+- Can you add the block to an area?
+- Can you add the block to a global area?
+- Can you add the block to a stack?
 - Does it work within the grid layout?
 - Can you edit a block
 - Can you move a block
 - Can you delete a block
+- Can you have multiple uses of a block on the same page?
+- Can you copy/paste a block on the same page?
+- Are the block database tables and columns (db.xml or other) appropriate to the purpose?
+- If a block is saved with empty or un-edited data, does it cause errors?
+- If a block is saved with typos or other mistakes in the data, does it cause errors?
+- Are all inputs appropriately validated?
 
 ## Dashboard Page
 
 - Dashboard page (if any)
     - Does it install the single page properly?
+    - If a dashboard page is saved with empty or un-edited data, does it cause errors?
+    - If a dashboard page is saved with typos or other mistakes in the data, does it cause errors?
+    - Are all inputs appropriately validated?
+
+- Are the package database tables and columns (db.xml or other) appropriate to the purpose?
+
 
 ## Job
 
@@ -75,4 +87,5 @@ This is how Katz review the add-ons for concrete5
     - Custom Block (if any)
 - Does the custom template works as it says?
 - Doesn't it override the default cocnrete5 UI?
+- If the theme provides blocks or dashboard pages, all the checks for add-on blocks and dashboard pages also apply to the theme.
 
