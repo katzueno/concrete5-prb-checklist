@@ -14,7 +14,7 @@ This is how Katz review the add-ons for concrete5
     - If the page has proper description of the add-on
     - If the page properly describe how to install, set-up, use and uninstall (if special care needed)
     - If the add-on/theme front page is not too long and too complicated (that they should create additional page such as Documentation).
-    - If the marketplace page represent the add-on/theme properly and faily explain what is this add-on/theme is all about.
+    - If the marketplace page represent the add-on/theme properly and fairly explain what is this add-on/theme is all about.
     - The marketplace place could contain other language rather than English. But English is primary language for the marketplace.
 - Unzip and see if it contains any extra files
 - Upload onto your concrete5 testing site
@@ -34,8 +34,11 @@ This is how Katz review the add-ons for concrete5
 ## Installation
 
 - Does it run on the minimum required concrete5 version?
-- Does it run on the various PHP versions from 5.3.3? (or minimum PHP version indicated otherwise)
-- Does it run on PHP 7 and the latest PHP version?
+- Does it run on the various PHP versions? (or minimum PHP version indicated otherwise)
+    - For 5.6.x, PHP 5.2.4 and above
+    - For 5.7.x, PHP 5.3.3 and above
+    - For 8.x, PHP 5.5.9 and above
+- Does it run on PHP 7 (7.2) and the latest PHP version?
 
 ## Upgrade
 
